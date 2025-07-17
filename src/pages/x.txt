@@ -1,0 +1,68 @@
+//hero
+
+<section className="mb-16">
+        <Swiper
+          modules={[Autoplay, Pagination, Navigation]}
+          spaceBetween={0}
+          slidesPerView={1}
+          autoplay={{ delay: 5000, disableOnInteraction: false }}
+          pagination={{ clickable: true }}
+          navigation={true}
+          className="rounded-lg overflow-hidden shadow-lg"
+        >
+          {slides.map((slide, index) => (
+            <SwiperSlide key={index}>
+              <div className="relative h-96">
+                <img src={slide.imageUrl} alt={slide.title} className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center p-8">
+                  <h1 className="text-4xl font-bold mb-4">{slide.title}</h1>
+                  <p className="text-xl mb-8">{slide.description}</p>
+                  <Link to="/products" className="bg-primary text-white px-6 py-3 rounded-md hover:bg-secondary transition-colors">Explore Products</Link>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </section>
+
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-bold mb-4">Quality Materials</h2>
+          <p>Durable and eco-friendly polygranite sheets for all your needs.</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-bold mb-4">Expert Design</h2>
+          <p>Professional interior design services to transform your space.</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-2xl font-bold mb-4">Customer Satisfaction</h2>
+          <p>Committed to delivering the best products and services.</p>
+        </div>
+      </section>
+
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold text-primary mb-8 text-center">Featured Products</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {featuredProducts.map((product, index) => (
+            <ProductCard key={index} title={product.title} description={product.description} imageUrl={product.imageUrl} />
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold text-primary mb-8 text-center">What Our Customers Say</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+              <p className="text-text mb-4 italic">"{testimonial.quote}"</p>
+              <p className="text-primary font-bold">- {testimonial.author}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="text-center">
+        <h2 className="text-3xl font-bold text-primary mb-4">Ready to Transform Your Space?</h2>
+        <p className="text-xl text-text mb-8">Contact us today for a free consultation.</p>
+        <Link to="/contact" className="bg-primary text-white px-6 py-3 rounded-md hover:bg-secondary transition-colors">Get in Touch</Link>
+      </section>
