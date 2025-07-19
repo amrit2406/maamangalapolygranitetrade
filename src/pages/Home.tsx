@@ -11,29 +11,30 @@ import TestimonialSection from '../components/home/Testi'
 import BlogsSection from '../components/home/BlogSec'
 import BrochureFloatingButton from '../components/BrochureFloatingButton'
 import pdf1 from "../assets/1.pdf";
-import pdf2 from "../assets/1.pdf";
-import pdf3 from "../assets/1.pdf";
-import pdf4 from "../assets/1.pdf";
-import pdf5 from "../assets/1.pdf";
-import pdf6 from "../assets/1.pdf";
-import pdf7 from "../assets/1.pdf";
-import pdf8 from "../assets/1.pdf";
-import pdf9 from "../assets/1.pdf";
-import pdf10 from "../assets/1.pdf";
-import pdf11 from "../assets/1.pdf";
-import pdf12 from "../assets/1.pdf";
-import pdf13 from "../assets/1.pdf";
-import pdf14 from "../assets/1.pdf";
-import pdf15 from "../assets/1.pdf";
-import pdf16 from "../assets/1.pdf";
-import pdf17 from "../assets/1.pdf";
-import pdf18 from "../assets/1.pdf";
-import pdf19 from "../assets/1.pdf";
-import pdf20 from "../assets/1.pdf";
-import pdf21 from "../assets/1.pdf";
-import pdf22 from "../assets/1.pdf";
-import pdf23 from "../assets/1.pdf";
+import pdf2 from "../assets/2.pdf";
+import pdf3 from "../assets/3.pdf";
+import pdf4 from "../assets/4.pdf";
+import pdf5 from "../assets/5.pdf";
+import pdf6 from "../assets/6.pdf";
+import pdf7 from "../assets/7.pdf";
+import pdf8 from "../assets/8.pdf";
+import pdf9 from "../assets/9.pdf";
+import pdf10 from "../assets/10.pdf";
+import pdf11 from "../assets/11.pdf";
+import pdf12 from "../assets/12.pdf";
+import pdf13 from "../assets/13.pdf";
+import pdf14 from "../assets/14.pdf";
+import pdf15 from "../assets/15.pdf";
+import pdf16 from "../assets/16.pdf";
+import pdf17 from "../assets/17.pdf";
+import pdf18 from "../assets/18.pdf";
+import pdf19 from "../assets/19.pdf";
+import pdf20 from "../assets/20.pdf";
+import pdf21 from "../assets/21.pdf";
+import pdf22 from "../assets/22.pdf";
+import pdf23 from "../assets/23.pdf";
 import WhatsAppFloatButton from '../components/WhatsAppFloatButton'
+import CertificateDisplay from '../components/home/Certi'
 
 
 const brochures = [
@@ -88,6 +89,8 @@ const Home: React.FC = () => {
       <TestimonialSection />
 
       <BlogsSection />
+
+      <CertificateDisplay />
       
     </div>
   )

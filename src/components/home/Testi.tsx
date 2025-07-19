@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
+import { Star, ArrowRight } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -64,6 +64,13 @@ const TestimonialSection: React.FC = () => {
     },
   ];
 
+  const handleGoogleReviewsClick = () => {
+    window.open(
+      "https://www.google.com/search?sca_esv=88e8eed0985531be&rlz=1C1YTUH_enIN977IN981&nfpr=1&sxsrf=AE3TifNaBrYaKyapTWcjL7ljn_zCJCBmMA:1752906486980&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-Ex9wEhx5BlPC9MO4zsgAfZuJmCVAfwMZykWNZ4lYKIL-hvN-OXD6UPtz79WoNenMHS6xnAO7fgkdrgWIbmm3hvdJ4Kts6nvD3ghuIqP6D_AggC-BcA%3D%3D&q=Maa+Mangala+poly+granite+trede+Reviews&sa=X&ved=2ahUKEwjinezDpciOAxX7zjgGHV-sLuwQ0bkNegQIIRAD&biw=1536&bih=738&dpr=1.25",
+      "_blank"
+    );
+  };
+
   return (
     <section className="py-16 px-6 sm:px-8 lg:px-12 xl:px-16 2xl:px-20 bg-gray-50">
       <div className="container mx-auto">
@@ -75,7 +82,7 @@ const TestimonialSection: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-gray-900 mb-4">
             Client Testimonials
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
@@ -165,6 +172,23 @@ const TestimonialSection: React.FC = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+        </motion.div>
+
+        {/* More Google Reviews Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="flex justify-center mt-8"
+        >
+          <button
+            onClick={handleGoogleReviewsClick}
+            className="flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg"
+          >
+            More Google Reviews
+            <ArrowRight size={18} />
+          </button>
         </motion.div>
       </div>
     </section>

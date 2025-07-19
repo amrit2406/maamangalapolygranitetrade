@@ -45,7 +45,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 2,
       name: "WPC Louvers",
-      category: "WPC Panels",
+      category: "WPC Louvers",
       description: "Waterproof panel with authentic wood texture",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2022/10/QD/VL/CQ/47954827/wpc-louver-panels.jpg",
@@ -58,7 +58,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 3,
       name: "Charcol Louvers",
-      category: "PVC Wall Panels",
+      category: "Charcol Louvers",
       description: "Contemporary design for modern interiors",
       image:
         "https://i.pinimg.com/736x/a3/c7/f8/a3c7f8f4a39ec514591c5e63c1118e3e.jpg",
@@ -71,7 +71,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 4,
       name: "PVC Louvers",
-      category: "Charcoal Louvers",
+      category: "PVC Louvers",
       description: "UV-resistant outdoor louvers",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/6/314642823/CV/TF/GP/143869956/louvered-panels.png",
@@ -84,7 +84,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 5,
       name: "PU Stone Pannel",
-      category: "Digital Sheets",
+      category: "PU Stone Pannel",
       description: "Personalized designs for unique spaces",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/3/397350778/FF/RA/DI/14628832/pu-stone-panel.jpeg",
@@ -97,7 +97,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 6,
       name: "WPC Door Frame",
-      category: "PVC Laminates",
+      category: "WPC Door Frame",
       description: "Durable door frames resistant to termites and moisture",
       image:
         "https://gw-assets.assaabloy.com/is/image/assaabloy/ec931-local-middleeastassaabloycom-products-doors-lockwood-polodoorcol",
@@ -110,7 +110,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 7,
       name: "PVC & Ply Door",
-      category: "PVC Laminates",
+      category: "PVC & Ply Door",
       description: "Combination of plywood core with PVC laminated surface",
       image:
         "https://classicsdoors.com/assets/website/images/resource/image-4.jpg",
@@ -123,7 +123,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 8,
       name: "Flush Door",
-      category: "PVC Laminates",
+      category: "Flush Door",
       description: "Minimalist door with smooth flat surface",
       image:
         "https://remodernliving.com/wp-content/uploads/2024/02/Flush-Doors.webp",
@@ -136,7 +136,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 9,
       name: "Modular Kitchen",
-      category: "PVC Laminates",
+      category: "Modular Kitchen",
       description: "Custom-built kitchen using PVC and WPC cabinetry",
       image:
         "https://s3.ap-south-1.amazonaws.com/mbprodimages/images/interiorDesignerCMS/decorPartner/150/projectImage/modern-u-shaped-kitchen-designs-10.jpg",
@@ -149,7 +149,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 10,
       name: "Cupboard",
-      category: "PVC Laminates",
+      category: "Cupboard",
       description: "Wardrobe with laminate or acrylic surface",
       image:
         "https://i.pinimg.com/736x/56/6c/f5/566cf560800779cd0d33e157b6591b56.jpg",
@@ -162,7 +162,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 11,
       name: "ACP & HPL Sheet",
-      category: "PVC Laminates",
+      category: "ACP & HPL Sheet",
       description: "Exterior grade sheets for cladding and facade",
       image:
         "https://s.alicdn.com/@sc04/kf/Ha17a448a37384df4ab2f5d868c7d39aa5.jpg_300x300.jpg",
@@ -175,7 +175,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 12,
       name: "Wallpaper",
-      category: "PVC Laminates",
+      category: "Wallpaper",
       description: "PVC or fabric-based wall coverings in multiple designs",
       image:
         "https://www.sgrad.ru/upload/iblock/ee2/ee217b56f6c6d298d99eaad4d05d1991.jpg",
@@ -188,7 +188,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 13,
       name: "All types Adhessives",
-      category: "PVC Laminates",
+      category: "All types Adhessives",
       description:
         "Industrial grade adhesives for wood, PVC, and laminate bonding",
       image: "https://i.ytimg.com/vi/SRSZ3fziPNA/maxresdefault.jpg",
@@ -201,7 +201,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 14,
       name: "Flutted pannels",
-      category: "PVC Laminates",
+      category: "Flutted pannels",
       description: "3D wall decor panels with vertical groove designs",
       image: "https://tg-alterra.ru/upload/images/content-img(210).png",
       specs: {
@@ -213,7 +213,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 15,
       name: "Soffit pannel & Louvers",
-      category: "PVC Laminates",
+      category: "Soffit pannel & Louvers",
       description:
         "Exterior ceiling/louver panels for ventilation and aesthetics",
       image: "https://www.kaycan.com/wp-content/uploads/2016/06/3FY_4884-1.jpg",
@@ -226,7 +226,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 16,
       name: "UV Sheet",
-      category: "PVC Laminates",
+      category: "UV Sheet",
       description:
         "Scratch-resistant glossy panels for furniture and interiors",
       image: "https://www.exolongroup.com/images/top_vivak-w1440-ar.jpg",
@@ -239,7 +239,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 17,
       name: "Artificial Grass",
-      category: "PVC Laminates",
+      category: "Artificial Grass",
       description: "Synthetic turf for landscaping and indoor decor",
       image:
         "https://avatars.mds.yandex.net/get-altay/11395962/2a0000018dbca7cd686bc7741cf629060229/XXL_height",
@@ -252,10 +252,10 @@ const ProductsPage: React.FC = () => {
     {
       id: 18,
       name: "Build Bond",
-      category: "PVC Laminates",
+      category: "Build Bond",
       description: "Multi-surface adhesive for construction applications",
       image:
-        "https://m.media-amazon.com/images/I/51SQWpNeU1L._AC_UL960_QL65_.jpg",
+        "https://5.imimg.com/data5/TG/BS/JZ/SELLER-38876717/builders-bond-construction-adhesive-500x500.jpg",
       specs: {
         thickness: "—",
         size: "500ml, 1L, 5L",
@@ -265,7 +265,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 19,
       name: "Mosaic Tile",
-      category: "PVC Laminates",
+      category: "Mosaic Tile",
       description: "Glass or ceramic mosaic for walls and surfaces",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mosaic_-_Mosqu%C3%A9e_de_Paris.jpg/1200px-Mosaic_-_Mosqu%C3%A9e_de_Paris.jpg",
@@ -278,7 +278,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 20,
       name: "Roof Shingles",
-      category: "PVC Laminates",
+      category: "Roof Shingles",
       description: "Weather-resistant shingles for pitched roofs",
       image:
         "https://rms3.kufar.by/v1/gallery/adim1/2335c42a-7ed6-4906-88cd-fcdc5802afb7.jpg",
@@ -291,7 +291,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 21,
       name: "Aluminium Accessories",
-      category: "PVC Laminates",
+      category: "Aluminium Accessories",
       description: "Aluminium channels, trims, and edging solutions",
       image:
         "https://i.pinimg.com/originals/b8/23/d4/b823d4086c846002ea91cf23db3b1d26.jpg",
@@ -304,7 +304,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 22,
       name: "French Moulding",
-      category: "PVC Laminates",
+      category: "French Moulding",
       description: "Decorative mouldings for ceilings, walls, and furniture",
       image:
         "https://ortgraph.ru/upload/medialibrary/88d/88da58bbea608d5922257341f3f2e28d.jpg",
@@ -317,7 +317,7 @@ const ProductsPage: React.FC = () => {
     {
       id: 23,
       name: "Golden PVC Strip & Stainless steel strip (self adhesive)",
-      category: "PVC Laminates",
+      category: "Golden PVC Strip & Stainless steel strip (self adhesive)",
       description: "Edge beading or detailing strips with adhesive back",
       image:
         "https://image.made-in-china.com/2f0j00GREYSeOHnjbd/China-Supplier-Stainless-Steel-U-Channel-Decorative-Metal-Trim-for-Interior-Design.webp",
@@ -519,7 +519,7 @@ const ProductsPage: React.FC = () => {
                   key={product.id}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  transition={{ duration: 0.2, delay: index * 0.1 }}
                   viewport={{ once: true }}
                   className="group"
                 >

@@ -1,0 +1,9 @@
+<div className="relative rounded-xl overflow-hidden shadow-xl">
+              <img 
+                src="https://img.freepik.com/free-photo/3d-rendering-luxury-business-meeting-working-room-executive-office_105762-1993.jpg?semt=ais_items_boosted&w=740" 
+                alt="Our manufacturing facility" 
+                className="w-full h-auto object-cover"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-primary/10"></div>
+            </div>

@@ -44,7 +44,7 @@ const BlogsSection: React.FC<BlogsSectionProps> = ({ hideHeading = false }) => {
         {/* Conditional Section Heading */}
         {!hideHeading && (
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-gray-900 mb-4">
               Latest Blogs
             </h2>
             <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>

@@ -329,7 +329,7 @@ const ContactPage: React.FC = () => {
 
               {/* Map Embed */}
               <div className="mt-8 rounded-lg overflow-hidden shadow-md">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4453.475028705402!2d85.85602585458203!3d20.17942304833723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1752670763759!5m2!1sen!2sin" width="100%" height="250" loading="lazy" ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.98028863587!2d85.85871829999999!3d20.1765462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a327a32ceef7%3A0xa101558a79268a81!2sMaa%20Mangala%20poly%20granite%20trede!5e0!3m2!1sen!2sin!4v1752903304723!5m2!1sen!2sin" width="100%" height="250" ></iframe>
               </div>
             </motion.div>
           </div>

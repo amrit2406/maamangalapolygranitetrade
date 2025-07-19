@@ -73,7 +73,7 @@ const ProductsSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-gray-900 mb-4">
             Our Premium Products
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>

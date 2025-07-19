@@ -31,10 +31,10 @@ const Navbar: React.FC = () => {
 
   const navItems = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
+    { path: "/about", label: "About Us" },
+    { path: "/products", label: "Products" },
     { path: "/interior-design", label: "Interior Design" },
     { path: "/blogs", label: "Blogs" },
-    { path: "/products", label: "Products" },
     { path: "/contact", label: "Contact" },
   ];
 
